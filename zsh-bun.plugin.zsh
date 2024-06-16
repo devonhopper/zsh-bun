@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 # shellcheck disable=SC1090
 
-# Exit if the 'bun' commabund can not be found
+# Exit if the 'bun' command can not be found
 if ! (( $+commands[bun] )); then
     echo "WARNING: 'gh' command not found"
     return
