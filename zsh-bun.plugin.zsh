@@ -3,7 +3,7 @@
 
 # Exit if the 'bun' command can not be found
 if ! (( $+commands[bun] )); then
-    echo "WARNING: 'gh' command not found"
+    echo "WARNING: 'bun' command not found"
     return
 fi
 
